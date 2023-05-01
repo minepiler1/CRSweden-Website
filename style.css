@@ -14,7 +14,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: 83px 4fr 1fr ;
+    grid-template-rows: 83px 4fr auto;
 }
 
 header{
@@ -88,7 +88,7 @@ footer p:hover{
     }
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 500px) {
     .wrapper{
         height: 85vh;
     }

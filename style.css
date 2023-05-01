@@ -2,7 +2,9 @@
     font-family: 'ClashRoyale';
     src: url(fonts/You_Blockhead.ttf);
 }
-
+html{
+    height: 100vh;
+}
 body{
     font-family:'ClashRoyale', sans-serif;
     padding: 0;
@@ -14,7 +16,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: 83px 4fr auto;
+    grid-template-rows: 83px 1fr auto;
 }
 
 header{
@@ -67,6 +69,7 @@ footer p:hover{
 }
 
 @media only screen and (max-width: 600px) {
+    
     footer p{
       font-size: 8px;
       width: 150px;
@@ -83,28 +86,8 @@ footer p:hover{
     header .nav{
         display: none;
     }
-    video{
-        height: 85vh;
-    }
   }
 
-  @media only screen and (max-width: 500px) {
-
-
-    body, .wrapper{
-        overflow-y: hidden;
-    }
-    footer p{
-        display: none;
-        padding-bottom: 3rem;
-      }
-  
-      footer img{
-        display: none;
-        padding-bottom: 3rem;
-      }
-  }
-  
 a{
     text-decoration: none;
     color: white;

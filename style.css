@@ -87,6 +87,12 @@ footer p:hover{
         height: 85vh;
     }
   }
+
+  @media only screen and (max-width: 480px) {
+    .wrapper{
+        height: 85vh;
+    }
+  }
   
 a{
     text-decoration: none;

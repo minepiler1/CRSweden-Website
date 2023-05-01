@@ -89,7 +89,7 @@ footer p:hover{
   }
 
   @media only screen and (max-width: 500px) {
-    body{
+    body, .wrapper{
         overflow-y: hidden;
     }
     footer p{

@@ -37,8 +37,8 @@ h1 > img{
     width: 50px;
 }
 
-img{
-    width: 95%;
+.txt > a > img{
+    width: 80vw;
     border-radius: 25px;
 }
 
@@ -102,7 +102,6 @@ footer > p > a:hover{
 }
 
 .txt{
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -2,9 +2,7 @@
     font-family: 'ClashRoyale';
     src: url(fonts/You_Blockhead.ttf);
 }
-html{
-    height: 100vh;
-}
+
 body{
     font-family:'ClashRoyale', sans-serif;
     padding: 0;
@@ -26,10 +24,6 @@ header{
     align-items: center;
     justify-content: center;
     grid-column: 1/-1; 
-}
-
-header > h1{
-    padding-left: 2.5%;
 }
 
 h1 > img{
@@ -57,7 +51,6 @@ footer img{
 }
 
 footer p{
-    position: absolute;
     left: 0%;
     padding-left: 3rem;
     font-size: 10px;
@@ -102,7 +95,6 @@ footer > p > a:hover{
 }
 
 .txt{
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -11,10 +11,10 @@ body{
 }
 
 .wrapper{
-    height: 100svh;
+    height: 100dvh;
     display: grid;
     grid-template-columns:auto;
-    grid-template-rows: 83px 1fr auto;
+    grid-template-rows: 83px auto 110px;
 }
 
 header{

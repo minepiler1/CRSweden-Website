@@ -1,0 +1,75 @@
+@font-face{
+    font-family: 'ClashRoyale';
+    src: url(fonts/You_Blockhead.ttf);
+}
+
+body{
+    overflow: hidden;
+    display: grid;
+    height: 100vh;
+    font-family:'ClashRoyale', sans-serif;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    grid-template-columns: 1fr 680px;
+    grid-template-rows: 1fr 100px;
+    
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+    grid-column: 1/-1;
+}
+
+footer img{
+    height: 110px;
+    width: 110px;
+    z-index: 3;
+}
+
+body > div :nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body > div :nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2{
+    padding-left: 2rem;
+}
+
+div img{
+    margin-top: 20px;
+    z-index: 1;
+}
+
+
+.test{
+    height: 600px;
+    width: 1100px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(58,106,174,1);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(58,106,174,1);
+    box-shadow: 0px 0px 14px 0px rgba(58,106,174,1);
+}
+.test1{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+svg{
+    z-index: 2;
+    margin-top: 550px;
+    position: absolute;
+    
+}

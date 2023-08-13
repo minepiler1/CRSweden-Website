@@ -1,75 +1,93 @@
 @font-face{
-    font-family: 'ClashRoyale';
-    src: url(fonts/You_Blockhead.ttf);
+  font-family: 'ClashRoyale';
+  src: url(fonts/You_Blockhead.ttf);
 }
 
 body{
-    overflow: hidden;
-    display: grid;
-    height: 100vh;
-    font-family:'ClashRoyale', sans-serif;
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    grid-template-columns: 1fr 680px;
-    grid-template-rows: 1fr 100px;
+  font-family:'ClashRoyale', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+section{
+  display: grid;
+  grid-template-rows: 800px 200px;
+  grid-template-columns: 1fr;
+}
+
+header{
+  justify-content: space-between;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/-1;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3{
+  padding: 2rem;
+}
+
+.nav > h3 > a:hover{
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+h3:hover{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ;
+}
+
+.videoholder{
+  
+  background-size: cover;
+  background-image: url("/images/69753-Clash-Royale-HD-Wallpaper.jpg");
+
+  width: auto;
+  background-color: grey;
+}
+
+.logoholder{
+  width: auto;
+
+}
+
+.logoholder > div:nth-child(1){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  margin-left: 200px;
+  margin-top: -250px;
+  border-radius: 32px;
+  background-color: white;
+  
+}
+
+.logoholder > div:nth-child(2){
     
+  
 }
 
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 100px;
-    grid-column: 1/-1;
-}
-
-footer img{
-    height: 110px;
-    width: 110px;
-    z-index: 3;
-}
-
-body > div :nth-child(2){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-body > div :nth-child(1){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-h1, h2{
-    padding-left: 2rem;
-}
-
-div img{
-    margin-top: 20px;
-    z-index: 1;
-}
-
-
-.test{
-    height: 600px;
-    width: 1100px;
-    -webkit-box-shadow: 0px 0px 14px 0px rgba(58,106,174,1);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(58,106,174,1);
-    box-shadow: 0px 0px 14px 0px rgba(58,106,174,1);
-}
-.test1{
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    
-}
-
-svg{
-    z-index: 2;
-    margin-top: 550px;
-    position: absolute;
-    
+.logoholder > div > img{
+  height: 300px;
+  width: 300px;
+  border-radius: 32px;
 }
